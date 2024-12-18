@@ -54,6 +54,5 @@ This enum contains all the possible types of values that can be sent with a mess
 
 For each `MessageBodyValueType`, the logic for converting the data into bytes must be implemented. The logic for some of these conversions has already been implemented. But some of them are yet to be implemented. Refer to [networking.py](https://github.com/Demkeys/VirtualStreamDeck/blob/main/networking.py) to see which types have been implemented so far. You can create your own implementations if you see fit.
 
-
-## TODO:
-- Create target address field in `data.txt` to mentioned target IP address and port.
+#### Target Address
+Target IP and port data gets loaded from `data.txt`. IP is str, port is int. To change target address, edit `TargetData` in `data.txt`, then refresh app page. The new data will be loaded.
