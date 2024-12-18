@@ -1,6 +1,6 @@
 # VirtualStreamDeck
 Virtual Stream Deck built with Python and Streamlit. This is a GUI app containing programmable buttons and sliders. There are 4 programmable presets; each preset has 24 programmable buttons and 4 programmable sliders.
-
+![](https://github.com/Demkeys/VirtualStreamDeck/blob/main/VirtualStreamDeckPic01.png)
 This tool implements the [RawMessage](https://github.com/Demkeys/DVTAppSpecification#rawmessage-protocol) and [DVTMPMessagePacked](https://github.com/Demkeys/DVTAppSpecification#dvtmpmessagepacked-protocol) protocols. Check the [DVTAppSpecification](https://github.com/Demkeys/DVTAppSpecification) repo for more info on the protocols.
 
 
