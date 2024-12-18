@@ -6,6 +6,8 @@ import copy
 
 # ds.create_blank_data_structure()
 ds.load_data_structure()
+net.set_target_addr_from_ds(ds.current_data['TargetAddr'])
+# st.write(ds.current_data['TargetAddr'])
 
 st.set_page_config(layout='wide')
 

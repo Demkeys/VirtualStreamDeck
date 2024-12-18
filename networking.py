@@ -12,7 +12,12 @@ MessageBodyValueType = {
     'bool':0,'int':1,'single':2,'char':3,
     'string':4,'vector3':5,'vector4':6
 }
-target_addr = ('192.168.8.111',9501)
+target_addr = ('192.168.8.111',9500)
+
+# addr must be tuple (str,int) containing ip and port
+def set_target_addr_from_ds(addr):
+    global target_addr
+    target_addr = addr
 
 def data_to_bytes(data_type, data):
     ret_data = []

@@ -4,6 +4,7 @@ import copy
 # Possible EventValueType values: none, int, str, float, bool
 
 current_data = {
+    'TargetAddr':['192.168.8.111',9500],
     'DesktopData':{
         'Preset01':{},
         'Preset02':{},
@@ -74,60 +75,64 @@ def create_blank_data_structure():
     current_data['DesktopData']['Preset01']['Button01'] = ControlData(
         'Event01','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button02'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event02','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button03'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event03','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button04'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event04','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button05'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event05','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button06'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event06','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button07'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event07','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button08'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event08','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button09'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event09','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button10'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event10','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button11'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event11','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button12'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event12','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button13'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event13','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button14'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event14','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button15'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event15','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button16'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event16','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button17'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event17','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button18'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event18','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button19'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event19','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button20'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event20','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button21'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event21','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button22'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event22','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button23'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event23','none',0).to_json()
     current_data['DesktopData']['Preset01']['Button24'] = ControlData(
-        'Event01','none',0).to_json()
+        'Event24','none',0).to_json()
     current_data['DesktopData']['Preset01']['Slider01'] = SliderControlData(
-        'Event01','none',0,0.0,1.0).to_json()
+        'Event25','none',0,0.0,1.0).to_json()
     current_data['DesktopData']['Preset01']['Slider02'] = SliderControlData(
-        'Event01','none',0,0.0,1.0).to_json()
+        'Event26','none',0,0.0,1.0).to_json()
     current_data['DesktopData']['Preset01']['Slider03'] = SliderControlData(
-        'Event01','none',0,0.0,1.0).to_json()
+        'Event27','none',0,0.0,1.0).to_json()
     current_data['DesktopData']['Preset01']['Slider04'] = SliderControlData(
-        'Event01','none',0,0.0,1.0).to_json()
-    with open('data.txt','w') as f:
+        'Event28','none',0,0.0,1.0).to_json()
+    
+    current_data['DesktopData']['Preset02'] = current_data['DesktopData']['Preset01']
+    current_data['DesktopData']['Preset03'] = current_data['DesktopData']['Preset01']
+    current_data['DesktopData']['Preset04'] = current_data['DesktopData']['Preset01']
+    with open('data01.txt','w') as f:
         f.write(json.dumps(current_data,indent=4))
     # print(json.dumps(current_data))
 

@@ -6,208 +6,58 @@
     "DesktopData": {
         "Preset01": {
             "Button01": {
-                "EventName": "SwitchToFlyCam01",
-                "EventValueType": "int",
-                "EventValue": 5
-            },
-            "Button02": {
-                "EventName": "SwitchToOrbitCam01",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button03": {
-                "EventName": "ChangeCamera",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button04": {
-                "EventName": "ToggleFlyMode",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button05": {
-                "EventName": "ToggleGreenScreen",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button06": {
-                "EventName": "SomethingElse",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button07": {
-                "EventName": "SomeNewEventMsg",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button08": {
-                "EventName": "PrideHeartsReward",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button09": {
-                "EventName": "SetMicSysDeviceToMic",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button10": {
-                "EventName": "SetMicSysDeviceToStereoMix",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button11": {
-                "EventName": "Event11",
-                "EventValueType": "single",
-                "EventValue": 0.01
-            },
-            "Button12": {
-                "EventName": "Event12",
-                "EventValueType": "single",
-                "EventValue": 0.01
-            },
-            "Button13": {
-                "EventName": "Event13",
-                "EventValueType": "single",
-                "EventValue": 0.0005
-            },
-            "Button14": {
-                "EventName": "Event14",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button15": {
-                "EventName": "Event15",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button16": {
-                "EventName": "Event16",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button17": {
-                "EventName": "Event17",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button18": {
-                "EventName": "Event18",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button19": {
-                "EventName": "Event19",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button20": {
-                "EventName": "Event20",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button21": {
-                "EventName": "Event21",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button22": {
-                "EventName": "Event22",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button23": {
-                "EventName": "Event23",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Button24": {
-                "EventName": "Event24",
-                "EventValueType": "int",
-                "EventValue": 0
-            },
-            "Slider01": {
-                "EventName": "SetMicRMSMul",
-                "EventValueType": "single",
-                "EventValue": 0,
-                "SliderMinValue": 0.0,
-                "SliderMaxValue": 10.0
-            },
-            "Slider02": {
-                "EventName": "SetSmoothDropMicRMSMul",
-                "EventValueType": "single",
-                "EventValue": 0,
-                "SliderMinValue": 0.0,
-                "SliderMaxValue": 20.0
-            },
-            "Slider03": {
-                "EventName": "SetMicNoiseGateThreshold",
-                "EventValueType": "single",
-                "EventValue": 0,
-                "SliderMinValue": 0.0,
-                "SliderMaxValue": 0.05
-            },
-            "Slider04": {
-                "EventName": "SetAvCube01ScaleMul",
-                "EventValueType": "single",
-                "EventValue": 0,
-                "SliderMinValue": 0.0,
-                "SliderMaxValue": 250.0
-            }
-        },
-        "Preset02": {
-            "Button01": {
-                "EventName": "Something",
-                "EventValueType": "int",
+                "EventName": "Event01",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button02": {
-                "EventName": "Event02hjdjhghdjh",
-                "EventValueType": "int",
+                "EventName": "Event02",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button03": {
                 "EventName": "Event03",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button04": {
                 "EventName": "Event04",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button05": {
                 "EventName": "Event05",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button06": {
                 "EventName": "Event06",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button07": {
                 "EventName": "Event07",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button08": {
                 "EventName": "Event08",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button09": {
                 "EventName": "Event09",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button10": {
                 "EventName": "Event10",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button11": {
                 "EventName": "Event11",
-                "EventValueType": "int",
+                "EventValueType": "none",
                 "EventValue": 0
             },
             "Button12": {
@@ -276,28 +126,178 @@
                 "EventValue": 0
             },
             "Slider01": {
-                "EventName": "Event01",
+                "EventName": "Event25",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider02": {
-                "EventName": "Event01",
+                "EventName": "Event26",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider03": {
-                "EventName": "Event01",
+                "EventName": "Event27",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider04": {
+                "EventName": "Event28",
+                "EventValueType": "none",
+                "EventValue": 0,
+                "SliderMinValue": 0.0,
+                "SliderMaxValue": 1.0
+            }
+        },
+        "Preset02": {
+            "Button01": {
                 "EventName": "Event01",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button02": {
+                "EventName": "Event02",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button03": {
+                "EventName": "Event03",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button04": {
+                "EventName": "Event04",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button05": {
+                "EventName": "Event05",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button06": {
+                "EventName": "Event06",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button07": {
+                "EventName": "Event07",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button08": {
+                "EventName": "Event08",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button09": {
+                "EventName": "Event09",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button10": {
+                "EventName": "Event10",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button11": {
+                "EventName": "Event11",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button12": {
+                "EventName": "Event12",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button13": {
+                "EventName": "Event13",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button14": {
+                "EventName": "Event14",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button15": {
+                "EventName": "Event15",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button16": {
+                "EventName": "Event16",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button17": {
+                "EventName": "Event17",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button18": {
+                "EventName": "Event18",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button19": {
+                "EventName": "Event19",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button20": {
+                "EventName": "Event20",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button21": {
+                "EventName": "Event21",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button22": {
+                "EventName": "Event22",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button23": {
+                "EventName": "Event23",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Button24": {
+                "EventName": "Event24",
+                "EventValueType": "none",
+                "EventValue": 0
+            },
+            "Slider01": {
+                "EventName": "Event25",
+                "EventValueType": "none",
+                "EventValue": 0,
+                "SliderMinValue": 0.0,
+                "SliderMaxValue": 1.0
+            },
+            "Slider02": {
+                "EventName": "Event26",
+                "EventValueType": "none",
+                "EventValue": 0,
+                "SliderMinValue": 0.0,
+                "SliderMaxValue": 1.0
+            },
+            "Slider03": {
+                "EventName": "Event27",
+                "EventValueType": "none",
+                "EventValue": 0,
+                "SliderMinValue": 0.0,
+                "SliderMaxValue": 1.0
+            },
+            "Slider04": {
+                "EventName": "Event28",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
@@ -306,7 +306,7 @@
         },
         "Preset03": {
             "Button01": {
-                "EventName": "SwitchToFlyCam01",
+                "EventName": "Event01",
                 "EventValueType": "none",
                 "EventValue": 0
             },
@@ -426,28 +426,28 @@
                 "EventValue": 0
             },
             "Slider01": {
-                "EventName": "Event01",
+                "EventName": "Event25",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider02": {
-                "EventName": "Event01",
+                "EventName": "Event26",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider03": {
-                "EventName": "Event01",
+                "EventName": "Event27",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider04": {
-                "EventName": "Event01",
+                "EventName": "Event28",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
@@ -456,7 +456,7 @@
         },
         "Preset04": {
             "Button01": {
-                "EventName": "SwitchToFlyCam01",
+                "EventName": "Event01",
                 "EventValueType": "none",
                 "EventValue": 0
             },
@@ -576,28 +576,28 @@
                 "EventValue": 0
             },
             "Slider01": {
-                "EventName": "Event01",
+                "EventName": "Event25",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider02": {
-                "EventName": "Event01",
+                "EventName": "Event26",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider03": {
-                "EventName": "Event01",
+                "EventName": "Event27",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
                 "SliderMaxValue": 1.0
             },
             "Slider04": {
-                "EventName": "Event01",
+                "EventName": "Event28",
                 "EventValueType": "none",
                 "EventValue": 0,
                 "SliderMinValue": 0.0,
