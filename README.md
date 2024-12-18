@@ -27,7 +27,7 @@ In the JSON file, each button's data looks like this:
 - EventValue: Value that is attached to this event.
 
 ### Editing Sliders
-and each slider's data looks like this:
+In the JSON file, each slider's data looks like this:
 ```
 "Slider01": {
                 "EventName": "SetMicRMSMul",
