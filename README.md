@@ -52,7 +52,7 @@ This enum contains all the possible event names. If you are setting an `EventNam
 #### MessageBodyValueType
 This enum contains all the possible types of values that can be sent with a message. If you're setting a `MessageBodyValueType` in `data.txt`, make sure that value type exists in this enum. The index of the corresponding `MessageBodyValueType` from this enum is what gets used in creating the packed message.
 
-For each `MessageBodyValueType`, the logic for converting the data into bytes must be implemented. The logic for some of these conversions has already been implemented. But some of them are yet to be implemented. Refer to [networking.py](https://github.com/Demkeys/VirtualStreamDeck/blob/main/networking.py) to see which types have been implemented so far. You can created your own implementations if you see fit.
+For each `MessageBodyValueType`, the logic for converting the data into bytes must be implemented. The logic for some of these conversions has already been implemented. But some of them are yet to be implemented. Refer to [networking.py](https://github.com/Demkeys/VirtualStreamDeck/blob/main/networking.py) to see which types have been implemented so far. You can create your own implementations if you see fit.
 
 
 ## TODO:
