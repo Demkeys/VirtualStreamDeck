@@ -17,7 +17,8 @@ target_addr = ('192.168.8.111',9500)
 # addr must be tuple (str,int) containing ip and port
 def set_target_addr_from_ds(addr):
     global target_addr
-    target_addr = addr
+    # addr is a list so convert to tuple
+    target_addr = (addr[0],addr[1])
 
 def data_to_bytes(data_type, data):
     ret_data = []
